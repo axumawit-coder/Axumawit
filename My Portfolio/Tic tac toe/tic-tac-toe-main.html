@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    
+    <link rel="pre-connect" href="https://fonts.gstatic.com">
+    <link href='https://fonts.googleapis.com/css?family=Itim' rel='stylesheet'>
+</head>
+<body>
+    <section class="container">
+            <h1>Tic Tac Toe</h1>
+            <div class="board">
+                <div class="cell" id="cell1" onclick="handleMove()"></div>
+                <div class="cell" id="cell2" onclick="handleMove()"></div>
+                <div class="cell" id="cell3" onclick="handleMove()"></div>
+                <div class="cell" id="cell4" onclick="handleMove()"></div>
+                <div class="cell" id="cell5" onclick="handleMove()"></div>
+                <div class="cell" id="cell6" onclick="handleMove()"></div>
+                <div class="cell" id="cell7" onclick="handleMove()"></div>
+                <div class="cell" id="cell8" onclick="handleMove()"></div>
+                <div class="cell" id="cell9" onclick="handleMove()"></div>
+            </div>
+            <div class="status">
+                <p id="status"></p>
+                <p id="win"></p>
+                <p id="tie"></p>
+            </div>
+            <div class="buttons">
+                <button id="play">Play</button>
+                <button id="reset">Reset</button>
+                <button id="exit">Exit</button>
+            </div>
+            <div class="status">
+                <p id="status"></p>
+                <p id="win"></p>
+                <p id="tie"></p>
+            </div>
+
+    </section>
+    <script src="tic-tac-toe.js"></script>
+</body>
+</html>

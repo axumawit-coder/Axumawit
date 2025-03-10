@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim';
+}
+body{
+    background-color: #3F6A35;
+}
+h1{
+    margin-top: 7rem;
+    font-size: 3rem;
+    justify-self: center;
+    text-shadow: black 5px 5px 5px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    justify-self: center;
+}
+.board{
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.cell{
+    background-color: #C6A1A1;
+    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: white 2px 2px 2px;
+    border-radius: 10px;
+    color: white;
+    font-size: 3rem;
+    text-shadow: black 4px 4px 4px;
+    text-align: center;
+}
+.cell:hover{
+    background-color: #996666;
+}
+.status p{
+    color: white;
+    font-size: 3rem;
+    text-shadow: black 5px 5px 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.buttons{
+    justify-self: center;
+}
+.buttons button{
+    font-size: 2rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #a8a2a2;
+}
+.buttons button:hover{
+    background-color: #6e6c6c;
+}
+#exit a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+.container h1{
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+.rules{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+.rules p{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+
+
+
+
+
+
+.cover-items{
+    display: flex;
+}
+.cover-items div{
+    margin-right: 2rem;
+}
+.x{
+    color: #F2D4D4;
+    font-size: 65px;
+    rotate: -16deg;
+    
+}
+.o{
+    color: #C6A1A1;
+    font-size: 65px;
+    rotate: -40deg;
+}
+.text{
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+.shadow{
+    text-shadow: black 2px 2px 2px;
+}
+#x1{
+    margin-top: 1.5rem;
+    margin-left: 6rem;
+}
+#o1{
+    margin-top: 1.2rem;
+    margin-left: 20rem;
+}
+#x2{
+    margin-top: 0.3rem;
+    margin-left: 19rem;
+}
+#o2{
+    margin-top: 1.6rem;
+    margin-left: 14rem;
+}
+#o3{
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+#x3{
+    margin-top: 1rem;
+    margin-left: 28rem;
+}
+#o4{
+    margin-top: 1rem;
+    margin-left: 17rem;
+}
+#x4{
+    margin-top: 1.4rem;
+    margin-left: 7rem;
+}
+#text1{
+    margin-left: 14rem;
+}
+#o5{
+    margin-top: 1.6rem;
+    margin-left: 6rem;
+}
+#text2{
+    margin-left: 11rem;
+}
+#x5{
+    margin-top: 1.7rem;
+    margin-left: 14rem;
+}
+#x6{
+    margin-top: 1.7rem;
+    margin-left: 14rem;
+}
+#text3{
+    margin-left: 19rem;
+}
+#x7{
+    margin-top: 2rem;
+    margin-left: 14rem;
+}
+#o6{
+    margin-top: 1rem;
+    margin-left: 7rem;
+}
+#o7{
+    margin-top: 1rem;
+    margin-left: 20rem;
+}
+.button{
+    justify-self: center;
+}
+.button button{
+    font-size: 2rem;
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: #a8a2a2;
+}
+.buttons button:hover{
+    background-color: #6e6c6c;
+}
+#games{
+    margin-left: 11rem;
+}
+#rule{
+    margin-left: 3rem;
+}
+#x8{
+    margin-left: 2rem;
+}
+#o8{
+    margin-top: 1rem;
+    margin-left: 14rem;
+}
+#x9{
+    margin-top: 0.2rem;
+    margin-left: 10rem;
+}
+#o9{
+    margin-left: 14rem;
+}
+#o10{
+    margin-top: 0.4rem;
+    margin-left: 14rem;
+}
+
+
+@media screen and (max-width: 960px){
+    .rules{
+        margin-top: 30px;
+        font-size: 1.4rem;
+        color: white;
+        text-shadow: black 2px 2px 2px;
+        margin-left: 3rem;
+    }
+    button{
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+}
